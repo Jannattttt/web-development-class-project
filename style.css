@@ -61,6 +61,21 @@ p a {
     border-radius: 10px;
 }
 
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 70px;
+}
+
+.image-grid img {
+    width: calc(40% - 10px); 
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
+
 .footer {
     margin-top: 100px;
 }
@@ -78,4 +93,20 @@ footer {
 section {
     margin-top: 2rem;
     text-align: left;
+}
+
+body.home-page header {
+    background-color: gray; 
+}
+
+body.about-page header {
+    background-color: #69aadf;
+}
+
+body.milestones-page header {
+    background-color: rgb(193, 153, 153);
+}
+
+body.contact-page header {
+    background-color: #9C27B0;
 }
